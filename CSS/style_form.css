@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 1%;
+    box-shadow: 3px 4px 5px #132D46;
+    margin-top: 2%;
+}
+
+legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #eee;
+    padding: .5%;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+}
+
+label, input, select {
+    display: block;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 5px;
+}
+
+input, select {
+    width: 100%;
+    border: 1px outset;
+    padding: 10px; 
+}
+
+input:focus {
+    outline: none;
+}
+
+.label-50 {
+    width: 50%;
+    float: left;
+}
+
+.label-75 {
+    width: 75%;
+    float: left;
+}
+
+.label-25 {
+    width: 25%;
+    float: left;
+}
+
+.center{
+    text-align: center;
+    padding: 2%;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #666;
+}
+
+button:hover { background-color: #ddd;}
+button:active { background-color: #666;}
+
+.botao-enviar {
+    background-color: #01C380;
+    color: #fff;
+}
+
+button {
+    border-radius: 10px;
+    border: 0px;
+}
