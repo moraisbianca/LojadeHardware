@@ -27,7 +27,5 @@ table tbody td, table thead th { padding: 10px; }
 table tbody td { border-bottom: 1px solid #ddd; }
 
 table tbody tr:hover{
-    background-color: lightskyblue; cursor: crosshair;
+    background-color: rgb(236, 233, 233); cursor: pointer;
 }
-
-.zebra{background: #EEE;}

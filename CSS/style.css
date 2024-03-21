@@ -31,7 +31,8 @@ main {
 }
 
 footer {
-    background: #191E29;
+    background: #01C380;
+    color: #eee;
     text-align: center;
     padding: 2%;
     border-top: 1px solid #999;
